@@ -1,0 +1,3 @@
+<div class="board" [ngClass]="{ 'black-facing': isBlackFacing }"  >
+  <ngx-chess-board (moveChange)="sendMessage()" [size]="boardSize" #board  [disabled]="isParentTurn"></ngx-chess-board>
+</div>

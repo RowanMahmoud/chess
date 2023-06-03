@@ -1,0 +1,10 @@
+<p>Chess Game</p>
+
+<div class="container">
+  <div class="parent"><ngx-chess-board  [size]="boardSize" #board   [disabled]="!isParentTurn"></ngx-chess-board></div>
+<div class="child" ><app-child [isBlackFacing]="boardIsBlackFacing"   [isParentTurn]="isParentTurn"></app-child></div>
+</div>
+
+  <div class="Reset"  (click)="resetGame()">
+    <button class="btn">Reset Game</button>
+</div>

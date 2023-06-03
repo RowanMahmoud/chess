@@ -1,0 +1,46 @@
+body{
+  background-color: black;
+}
+p{
+color: palevioletred;
+font-size:xx-large;
+font-weight: bold;
+}
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.parent{
+  margin: auto;
+  width: 400px;
+  border: 3px solid black;
+  padding: 10px;
+}
+.child{
+  margin: auto;
+  width: 400px;
+  border: 3px solid black;
+  padding: 10px;
+  transform: rotate(180deg);
+}
+
+
+.Reset {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+.btn{
+  background-color: palevioletred;
+  border-radius: 4px;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+}
